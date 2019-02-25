@@ -1,0 +1,116 @@
+Quick-Cocos2dx-Community C++ support ready.
+
+------------------------------------------------
+
+LOAD LUA FILE: D:/cocosProjects/FruitFest/src/main.lua
+
+------------------------------------------------
+
+[LUA-print] ===========================================================
+
+[LUA-print]               LOAD QUICK FRAMEWORK
+
+[LUA-print] ===========================================================
+
+[LUA-print] [INFO] 
+
+[LUA-print] [INFO] # DEBUG                        = 2
+
+[LUA-print] [INFO] #
+
+[LUA-print] [INFO] # device.platform              = windows
+
+[LUA-print] [INFO] # device.model                 = unknown
+
+[LUA-print] [INFO] # device.language              = cn
+
+[LUA-print] [INFO] # device.writablePath          = D:\cocosProjects\FruitFest\
+
+[LUA-print] [INFO] # device.directorySeparator    = \
+
+[LUA-print] [INFO] # device.pathSeparator         = ;
+
+[LUA-print] [INFO] #
+
+[LUA-print] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_WIDTH
+
+[LUA-print] [INFO] # CONFIG_SCREEN_WIDTH          = 640.00
+
+[LUA-print] [INFO] # CONFIG_SCREEN_HEIGHT         = 960.00
+
+[LUA-print] [INFO] # display.widthInPixels        = 640.00
+
+[LUA-print] [INFO] # display.heightInPixels       = 960.00
+
+[LUA-print] [INFO] # display.contentScaleFactor   = 1.00
+
+[LUA-print] [INFO] # display.width                = 640.00
+
+[LUA-print] [INFO] # display.height               = 960.00
+
+[LUA-print] [INFO] # display.cx                   = 320.00
+
+[LUA-print] [INFO] # display.cy                   = 480.00
+
+[LUA-print] [INFO] # display.left                 = 0.00
+
+[LUA-print] [INFO] # display.right                = 640.00
+
+[LUA-print] [INFO] # display.top                  = 960.00
+
+[LUA-print] [INFO] # display.bottom               = 0.00
+
+[LUA-print] [INFO] # display.c_left               = -320.00
+
+[LUA-print] [INFO] # display.c_right              = 320.00
+
+[LUA-print] [INFO] # display.c_top                = 480.00
+
+[LUA-print] [INFO] # display.c_bottom             = -480.00
+
+[LUA-print] [INFO] #
+
+unsupport convert for format 8 to format 2
+
+[LUA-print] [INFO] userdata: 0x013aa518 [EventProtocol] addEventListener() - event: CLICKED_EVENT, handle: 1, tag: 
+
+[LUA-print] [INFO] userdata: 0x013aa518 [EventProtocol] dispatchEvent() - event PRESSED_EVENT
+
+[LUA-print] [INFO] userdata: 0x013aa518 [EventProtocol] dispatchEvent() - event RELEASE_EVENT
+
+[LUA-print] [INFO] userdata: 0x013aa518 [EventProtocol] dispatchEvent() - event CLICKED_EVENT
+
+[LUA-print] [INFO] userdata: 0x013aa518 [EventProtocol] dispatchEvent() - dispatching event CLICKED_EVENT to listener 1
+
+can not get file data of src/framework/protobuf/app/scenrs/FruitItem.lua
+
+[LUA-print] ----------------------------------------
+
+[LUA-print] LUA ERROR: [string "D:/cocosProjects/FruitFest/src/app/scenes/PlayScene.lua"]:9: module 'app.scenrs.FruitItem' not found:
+	no field package.preload['app.scenrs.FruitItem']
+	no file '.\app\scenrs\FruitItem.lua'
+	no file 'E:\BaiduYunDownload\Quick-Cocos2dx-Community\quick\player\win32\lua\app\scenrs\FruitItem.lua'
+	no file 'E:\BaiduYunDownload\Quick-Cocos2dx-Community\quick\player\win32\lua\app\scenrs\FruitItem\init.lua'
+	no file 'D:/cocosProjects/FruitFest/src/app\scenrs\FruitItem.lua'
+	no file 'src/app\scenrs\FruitItem.lua'
+	no file 'src/framework/protobuf/app\scenrs\FruitItem.lua'
+	no file '.\app\scenrs\FruitItem.dll'
+	no file 'E:\BaiduYunDownload\Quick-Cocos2dx-Community\quick\player\win32\app\scenrs\FruitItem.dll'
+	no file 'E:\BaiduYunDownload\Quick-Cocos2dx-Community\quick\player\win32\loadall.dll'
+	no file '.\app.dll'
+	no file 'E:\BaiduYunDownload\Quick-Cocos2dx-Community\quick\player\win32\app.dll'
+	no file 'E:\BaiduYunDownload\Quick-Cocos2dx-Community\quick\player\win32\loadall.dll'
+
+
+[LUA-print] 
+stack traceback:
+	[C]: in function 'import'
+	[string "D:/cocosProjects/FruitFest/src/app/scenes/PlayScene.lua"]:9: in main chunk
+	[C]: in function 'import'
+	[string "D:/cocosProjects/FruitFest/src/app/scenes/MainScene.lua"]:21: in function <[string "D:/cocosProjects/FruitFest/src/app/scenes/MainScene.lua"]:19>
+	[string ".\framework/cc/components/behavior/EventProtocol.lua"]:59: in function 'dispatchEvent'
+	[string ".\framework/cc/ui/UIPushButton.lua"]:124: in function 'listener_'
+	[string ".\framework/cocos2dx/NodeEx.lua"]:428: in function <[string ".\framework/cocos2dx/NodeEx.lua"]:382>
+
+[LUA-print] ----------------------------------------
+
